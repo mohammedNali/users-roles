@@ -15,7 +15,9 @@
     @include('components/navbar')
 </div>
 
-@yield('content')
+<div class="container">
+    @yield('content')
+</div>
 
 
 {{--<script src="{{ asset('js/app.js') }}"></script>--}}
